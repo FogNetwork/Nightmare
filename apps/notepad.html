@@ -1,0 +1,56 @@
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    color: white;
+  }
+  .line-display {
+    float: left;
+    min-width: 30px;
+    text-align: center;
+    background: black;
+    height: 100%;
+    line-height: 20px;
+    padding-top: 5px;
+    color: white;
+  }
+  .notepad-input {
+    outline: none;
+    overflow: hidden;
+    float: left;
+    height: 100vh;
+    padding-top: 4px;
+    width: calc(calc(100% - 30px) - 10px);
+    line-height: 20px;
+    padding-left: 10px;
+  }
+</style>
+
+<div class="line-display">1<br></div>
+<div class="notepad-input" contenteditable="true" oninput="handleInput()"></div>
+
+<script>
+  var isKeyPressed = {}
+  var isBolded = false;
+  document.onkeydown = (ev) => { 
+    isKeyPressed[ev.key] = true;
+    if (isKeyPressed["Control"] && isKeyPressed["b"]) {
+      if (isBolded==false) isBolded = true; else isBolded = false;
+    };
+  }
+  document.onkeyup = (ev) => {
+    isKeyPressed[ev.key] = false;
+  }
+  var $ = document.querySelector.bind(document)
+  function handleInput() {
+    $('.notepad-input').style.width = `calc(calc(100% - ${$(".line-display").offsetWidth}) - 10)`
+    var input = $('.notepad-input').innerText.split('\n')
+    for (var x = 2; x < 100000; x++)
+    {
+      if (input[input.length-x]=='') input.splice(input.length-2, 1)
+    }
+    $('.line-display').innerHTML = input.map((e,i) => {
+      return i+1
+    }).join('<br>')
+  }
+</script>

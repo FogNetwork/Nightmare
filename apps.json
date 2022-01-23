@@ -1,0 +1,51 @@
+[
+    {
+        "id": "0",
+        "title": "Vs Code",
+        "icon": "https://vscode.dev/static/stable/favicon.ico",
+        "type": "url",
+        "url": "https://vscode.dev"
+    },
+    {
+        "id": "1",
+        "title": "Invidious",
+        "icon": "https://invidious.io/favicon.ico",
+        "type": "url",
+        "url": "https://inv.riverside.rocks/feed/popular"
+    },
+    {
+        "id": "2",
+        "title": "CrownJS",
+        "icon": "/apps/assets/crownjs.png",
+        "type": "js",
+        "js": "/apps/crownjs.js"
+    },
+    {
+        "id": "3",
+        "title": "Calculator",
+        "icon": "https://th.bing.com/th/id/R.6a2a75534b0bbe9448205951e63416ba?rik=ZqGs1IxdRo7PFw&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2fpaomedia%2fsmall-n-flat%2f1024%2fcalculator-icon.png&ehk=Zmh0xuLFdvZShXbHYjBs49KANZG3oS1%2fYDmw5QRWMt0%3d&risl=&pid=ImgRaw&r=0",
+        "type": "url",
+        "url": "/apps/calculator.html"
+    },
+    {
+        "id": "4",
+        "title": "Notepad",
+        "icon": "https://cdn3.iconfinder.com/data/icons/basic-ui-line-circle/605/121_-_Report-512.png",
+        "type": "url",
+        "url": "/apps/notepad.html"
+    },
+    {
+        "id": "5",
+        "title": "About",
+        "icon": "",
+        "type": "url",
+        "url": "/apps/about.html"
+    },
+    {
+        "id": "6",
+        "title": "Html Editor",
+        "icon": "",
+        "type": "js",
+        "url": "/apps/htmleditor.js"
+    }
+]

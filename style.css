@@ -1,0 +1,76 @@
+* {
+  font-family: Roboto;
+}
+
+body {
+  overflow: hidden;
+  background: black;
+}
+
+.app {
+  cursor: pointer;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  margin: 8px;
+  user-select: none;
+  color: white;
+}
+
+.appimg {
+  height: 65px;
+  width: 65px;
+  border-radius: 5px;
+}
+
+.apptitle {
+  max-width: 85px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#splash {
+  position: fixed;
+  padding-top: 40vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  text-align: center;
+  font-size: 60px;
+  user-select: none;
+  color: white;
+  z-index: 9999;
+}
+
+.navbar {
+  background: #202124;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  user-select: none;
+}
+
+.navbarplaceholder {
+  background: transparent;
+  height: 30px;
+}
+
+.navname {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 5px;
+}
+
+#navtime {
+  color: white;
+  position: fixed;
+  right: 5px;
+  top: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
