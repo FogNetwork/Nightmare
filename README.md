@@ -1,10 +1,12 @@
 # Nightmare
+Nightmare is a virtual operating system that runs online, designed to bypass censorship and includes many apps like a notepad and a html editor.
 
 ## Beta
 ### Notes
 - Some apps, icons and content are placeholders
 - Not all apps have been added
 - There will be bugs and unstable content
+- Making a version with a server that will have a proxy and more features
 ### Bugs
 - Cannot open multiple `js` apps
 - Resizing the right side of a window before it is moved it weird
