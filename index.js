@@ -12,9 +12,9 @@ localStorage.setItem("order", JSON.stringify(order))
 }
 
 async function getapps() {
-var appsjson = await fetch("/apps.json")
+var appsjson = await fetch("./apps.json")
 var apps = await appsjson.json()
-var orderjson = await fetch("/order.json")
+var orderjson = await fetch("./order.json")
 var order = await orderjson.json()
 for (app in order) {
 var appelm = document.createElement("div")
