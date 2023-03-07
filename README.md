@@ -1,3 +1,8 @@
+# Deprecated!
+This project is deprecated! I am no longer maintaining this project. Why not check out [Metallic](https://github.com/Metallic-Web/Metallic)?
+
+I have a mostly finished project like Nightmare that I might release when I feel like it. Stay Tuned!
+
 # Nightmare
 Nightmare is a virtual operating system that runs online, designed to bypass censorship and includes many apps like a notepad and a html editor.
 
